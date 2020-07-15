@@ -18,5 +18,4 @@ class String
    sentence_num = self.split(/[.?!]/)
    puts sentence_num
   end
-  self.count_sentences("This, well, is a sentence. This is too!! And so is this, I think? Woo...")
 end

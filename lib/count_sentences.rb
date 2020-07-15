@@ -18,4 +18,5 @@ class String
    sentence_num = self.split(/[.?!]/)
    sentence_num.reject {|x| x.empty?}
   end
+  
 end
